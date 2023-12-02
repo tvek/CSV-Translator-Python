@@ -8,9 +8,9 @@ python tvek_document_translator.py
 
 # API Documentation
 
-Translate all the documents using below snippet
-input_csvs = Directory in which all the csv's are placed
-output_csvs = Directory in which all the translated csv's are to be placed
-en = Language code for language into which input_csvs needs to be translated
-> translator = TVEKDocumentTranslator()
+Translate all the documents using below snippet<br />
+input_csvs = Directory in which all the csv's are placed<br />
+output_csvs = Directory in which all the translated csv's are to be placed<br />
+en = Language code for language into which input_csvs needs to be translated<br />
+> translator = TVEKDocumentTranslator();<br />
 > translator.translate_all_csv('input_csvs', 'output_csvs', 'en')
